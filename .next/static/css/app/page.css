@@ -1,0 +1,227 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/Pages/Navbar/index.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    background-color: white;
+  
+}
+.link-item{
+    color: black;
+    text-decoration: none;
+}
+
+.link-item:hover{
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+}
+
+.nav-icon{
+  display: none;
+}
+
+p{
+font-size: x-small;
+}
+
+@media (max-width:600px){
+    .nav-list {
+        display: none; /* Hide by default on smaller screens */
+        position: absolute;
+        top: 95px;/* Adjust as per your design*/
+        left: 0;
+        width: 100%;
+        background-color: #2a629a;
+        flex-direction: column;
+        padding: 0;
+        z-index: 1; /* Ensure it's above other content */
+      }
+    
+      .nav-list.active {
+        display: flex; /* Show when active */
+      }
+    
+      .nav-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: white;
+      }
+    .nav-item{
+        margin-right: auto;
+    }
+      .link-item {
+        color: white;
+        padding: 1rem; /* Add padding for better touch area */
+ 
+      }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/Pages/home/index.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+/* Global Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  .main-view {
+    background-color: #2e5a8a;
+    color: white;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: #366797;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .header-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .contentToday-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contentToday-headone-img {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .contentToday-headone-heading {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  
+  .contentToday-headtwo-heading {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  .main-head {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .weather {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+
+    
+  }
+  .weather-1{
+    background-color: #274869 ;
+    padding: 0.2rem;
+    align-items: center;
+  }
+  
+  @media (max-width: 600px) {
+    .header-sec {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .contentToday-head {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .contentToday-headone-img {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .contentToday-headone-heading {
+      font-size: 1.5rem;
+    }
+  
+    .contentToday-headtwo-heading {
+      font-size: 1rem;
+    }
+  
+    .weather {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .main-head{
+        font-size: 1.2rem;
+        font-weight: 500;
+word-wrap: break-word;
+    }
+  }
+  
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/Pages/search/index.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.main{
+    background-color: #2A629A;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.3rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+@media (max-width:600px) {
+.main{
+    display: block;
+    gap:1rem;
+}
+  .select-countries{
+    max-width: 150px;
+  }
+  .select-cities{
+    margin-top: 0.8rem;
+    max-width: 150px;
+  }
+}

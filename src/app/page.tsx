@@ -7,7 +7,7 @@ import Navbar from '../Pages/Navbar/index'
 
 export default function Home() {
   return (
-    <div className='main-page'>
+    <div className='main-pag'>
       <Navbar />
 
       <Header />
